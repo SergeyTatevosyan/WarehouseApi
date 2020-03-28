@@ -20,6 +20,7 @@ namespace WarehouseApi
                 // создаем два объекта product
                 Product product1 = new Product("морковка","0000000001",10,15);
                 Product product2 = new Product("картошка", "0000000002", 15, 20);
+                Product product3 = new Product("огурец", "0000000002", 25, 30);
 
                 // добавляем их в бд
                 db.Products.Add(product1);
